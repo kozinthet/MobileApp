@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Test Application</string>
+    <string name="welcome_text">Too hot outside. Don\'t get outside, just sleep. Keep calm andd still sleeping</string>
+    <string name="btn_next">NEXT</string>
+    <string name="activity_two_text">Welcome from Activity Two</string>
+    <string name="btn_back">BACK</string>
+    <string name="sleep_well">Sleep Well</string>
+    <string name="eat_well">Eat Well</string>
+    <string name="keep_well">Keep Well</string>
+    <string name="well_done">Well Done, Well Done, Well Done</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_call">Catch me if you can</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Software Installer</string>
+    <string name="txt_donwload_text">At First, you need to download the software from Software Center</string>
+    <string name="txt_download_btn">Next</string>
+    <string name="txt_install_text">TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXTTEXT TEXT TEXT TEXT</string>
+    <string name="txt_install_btn">NEXT</string>
+    <string name="txt_phone_bill_text">Phone Bill</string>
+    <string name="txt_phone_bill_btn">OK</string>
+</resources>

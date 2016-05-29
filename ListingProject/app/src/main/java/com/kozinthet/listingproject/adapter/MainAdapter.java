@@ -24,6 +24,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder
         this.mContext = mContext;
     }
 
+    // Load View
     @Override
     public MainViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.card_main, parent, false);
@@ -31,6 +32,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder
         return mainViewHolder;
     }
 
+    // Bind Data with View
     @Override
     public void onBindViewHolder(MainViewHolder holder, int position) {
         holder.mTextView.setText(mStates.get(position));
@@ -44,6 +46,7 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MainViewHolder
     public class MainViewHolder extends RecyclerView.ViewHolder {
 
         TextView mTextView;
+
         public MainViewHolder(View itemView) {
             super(itemView);
             mTextView = (TextView) itemView.findViewById(R.id.txt_ard);

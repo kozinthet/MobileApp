@@ -25,6 +25,7 @@
             android:layout_toRightOf="@id/img_card"
             android:layout_toEndOf="@id/img_card"
             android:layout_marginLeft="20dp"
+            android:textAlignment="?android:textAppearanceMedium"
             android:layout_centerVertical="true"
             android:gravity="center_vertical"/>
 
